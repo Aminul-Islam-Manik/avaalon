@@ -1,0 +1,480 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background: url(../assets/images/top_bg.png) top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.btn-top{
+    background: none;
+}
+.navbar {
+    margin-top: 12px;
+}
+.fas1{
+    transform: rotate(-46deg);
+}
+.fas{
+    padding: 13px 15px 0px 0px;
+    font-size: 30px;
+    display: inline;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+.nav-link{
+    color: #fff;
+    font-size: 25px;
+}
+.nav-item{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 17px;
+}
+.banner-left{
+    width: 100%;
+    padding: 55px 30px;
+}
+.banner-left h2{
+    color: rgb(219, 103, 8);
+    font-size: 53px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.banner-left h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 135px;
+    font-weight: 700;
+    padding: 0;
+    line-height: 125px;
+    margin-bottom: 35px;
+}
+.banner-left p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 16px 49px 39px 0px;
+}
+
+.button-section a {
+    width: 190px;
+    height: 50px;
+    background: #f36b2a;
+    float: left;
+    margin-right: 15px;
+    line-height: 50px;
+    border-radius: 100px;
+    font-size: 17px;
+    color: #fff;
+    text-align: left;
+    padding: 0 25px;
+    font-weight: 400;
+    position: relative;
+    letter-spacing: 0.1px;
+}
+.button-section a::after {
+    width: 60px;
+    content: ">";
+    background: #ddd;
+    position: absolute;
+    right: -2px;
+    top: 0;
+    color: #040f45;
+    height: 100%;
+    border-radius: 0 100px 100px 0;
+    text-align: center;
+    font-size: 22px;
+}
+.banner-right{
+    width: 100%;
+    padding: 148px 0px 0px;
+}
+.carousel-item img{
+    width: 100%;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+.about-left h1{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 63px;
+}
+.about-left p{
+    margin: 0px;
+    font-weight: 300;
+    font-size: 22px;
+    color: #212222;
+    line-height: 31px;
+    margin-bottom: 28px;
+}
+
+.choose-us{
+    background: #161C34;
+    width: 100%;
+    padding: 0px 0px 200px 0px;
+    margin-top: 301px;
+}
+.choose-us::before{
+    content: "";
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: relative;
+    background: url('../assets/images/cross_blue.png');
+    top: -223px;
+}
+.heading{
+    width: 100%;
+    margin-top: -256px;
+}
+.heading h1{
+    color: #fff;
+    text-align: center;
+    background: #F36B2A;
+    font-size: 52px;
+    padding: 20px 0px;
+}
+.box1 h2{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 27px 0px 6px;
+}
+.box1 p{
+    color: #ffffffc4;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.testimonial{
+    width: 100%;
+    background: #F36B2A;
+    margin-top: 73px;
+    padding: 0px 0px 244px 0px;
+}
+.testimonial::before{
+    content: "";
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: relative;
+    background: url(../assets/images/cross_orange.png);
+    top: -298px;
+}
+.testimonial-heading{
+    margin-top: -371px;
+}
+.slidermn{
+    margin-top: -200px;
+}
+.testimonial-heading h1{
+    color: #fff;
+    text-align: center;
+    background: #161C34;
+    font-size: 52px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+.sld-img{
+    width: 20% !important;
+    position: relative;
+    top: 31px;
+    margin: 0 auto;
+}
+.sld-img1{
+    width: 10% !important;
+    position: relative;
+    left: 45%;
+}
+.clint{
+    width: 100%;
+    background: #fff;
+    padding: 35px 20px;
+    margin: 0 auto;
+}
+.clint h3{
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+
+}
+.clint h4{
+    font-size: 24px;
+    color: chocolate;
+    text-align: center;
+}
+.carousel-indicators li {
+    position: relative;
+    flex: 0 1 auto;
+    width: 35px;
+    height: 10px !important;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: #fff;
+    top: 69px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.carousel-indicators li .active{
+    background-color: #000;
+}
+.testimonial-bottom{
+    background: #161C34;
+    width: 100%;
+    padding: 0px 0px 200px 0px;
+    margin-top: 75px;
+}
+.testimonial-bottom::before{
+    content: "";
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: relative;
+    background: url('../assets/images/cross_blue.png');
+    top: -290px;
+}
+.map{
+    margin-top: -100px;
+}
+.text h1{
+    color: #fff;
+    text-align: center;
+    background: #F36B2A;
+    font-size: 52px;
+    padding: 18px 0px;
+    margin-top: -329px;
+}
+.form{
+    background: #fff;
+}
+.form-group{
+    background: #ddd;
+    margin: 20px;
+}
+.footer{
+    width: 100%;
+    background: #161C34;
+    border-top: 1px solid #ffffff6e;
+    padding: 100px 0px;
+}
+.footer-text h2{
+    color: #fff;
+    width: 63%;
+    font-weight: 700;
+    font-size: 40px;
+    border-bottom: 2px solid #F36B2A;
+}
+.footer1 h4{
+    font-size: 30px;
+    color: #fff;
+    margin: 30px 0px;
+    font-weight: 600;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    background: #ddd;
+    border: none;
+}
+.SUBMIT-BN{
+    width: 165px;
+    height: 51px;
+    background: #f36b2a;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: ease all 0.5s; 
+    border: none;
+    font-weight: 600;
+}
+.ft-menu{
+    margin-top: 14px;
+}
+.ft-menu ul{
+    list-style: none;
+    font-size: 17px;
+    line-height: 35px;
+    float: left;
+    width: 100%;
+}
+.ft-menu li{
+    width: 100%;
+    position: relative;
+    padding: 0 0 0 20px;
+}
+.ft-menu a{
+    color: #fff;
+}
+
+.ft-menu ul li::after {
+    width: 10px;
+    height: 10px;
+    background: #f36b2a;
+    content: "";
+    position: absolute;
+    left: 0;
+    border-radius: 100%;
+    top: 13px;
+}
+.footer-mail h4{
+    color: #fff;
+    font-weight: 600;
+    font-size: 19px;  
+}
+.footer-mail p{
+    letter-spacing: 0.5px;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 27px; 
+}
+
+
+
+
+.contact_form {
+    background: #fff;
+    padding: 45px 45px;
+    margin-top: -100px;
+}
+
+.field input {
+    width: 100%;
+    border: none;
+    background: #e8e8e8;
+    min-height: 52px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.field textarea {
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    background: #e8e8e8;
+    min-height: 52px;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0;
+    min-height: 110px;
+}
+
+button.submit_bt {
+    width: 165px;
+    height: 51px;
+    background: #f36b2a;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: ease all 0.5s;
+    border: none;
+}
+
+button.submit_bt:hover {
+    background: #111;
+    color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .banner-left h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+
+.dn{
+    display: none;
+}
+.header {
+    height: 133vh;
+    padding-bottom: 41px;
+}
+.banner-left h2 {
+    font-size: 47px;
+    text-align: center;
+}
+.banner-left p {
+    padding: 0px;
+    text-align: center;
+}
+.banner-right {
+    padding: 40px 0px 0px;
+}
+.about {
+    padding: 0px 0px;
+}
+.about-right{
+    margin-top: 50px;
+}
+.heading {
+    margin-top: -370px;
+}
+.heading h1 {
+    font-size: 45px;
+}
+.choose-us {
+    padding: 0px 0px 252px 0px;
+}
+.testimonial-heading h1 {
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header {
+        height: 160vh;
+        padding-bottom: 41px;
+    } 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
